@@ -84,15 +84,6 @@ Run month end...
 Account Balance : 2006.67   (2000 x 0.04 / 12 interest added)
 ```
 
-## What I Would Improve
-
-- Use an `enum AccountType` instead of string labels
-- Route all account creation through the service layer and generate customer IDs there
-- Use `BigDecimal` instead of `double` for money
-- Add a custom `InsufficientFundsException` and consistent error handling with `try/catch` in the menu
-- Add transaction history per account
-- Persist data in a file or database
-- Add unit tests
 
 ## Author
 
